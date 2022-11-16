@@ -1,9 +1,6 @@
-
 import './ExpenseItem.css'
-// import logo fr   m '../../public/logos'
 
 const ExpenseItem = ({expense: {title, amount, image}}) => {
-    // const {title, amount, image} = expense;
     const expenseLogo = require(`../../public/logos/${image}.png`);
 
     return (
