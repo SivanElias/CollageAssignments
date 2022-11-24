@@ -1,7 +1,7 @@
 import './ExpenseItem.css'
 
 const ExpenseItem = ({expense: {title, amount, image}}) => {
-    const expenseLogo = require(`../../public/logos/${image}.png`);
+    const expenseLogo = require(`../../../public/logos/${image}.png`);
 
     return (
         <div className='expense-item'>
